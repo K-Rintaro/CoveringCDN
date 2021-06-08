@@ -1,0 +1,25 @@
+{
+  "name": "coveringcdn",
+  "version": "1.0.0",
+  "description": "When CDN servers are down",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-Rintaro/CoveringCDN.git"
+  },
+  "keywords": [
+    "CDN"
+  ],
+  "author": "Rintaro Kobayashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/K-Rintaro/CoveringCDN/issues"
+  },
+  "homepage": "https://github.com/K-Rintaro/CoveringCDN#readme",
+  "dependencies": {
+    "ping": "^0.4.1"
+  }
+}
