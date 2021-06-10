@@ -37,7 +37,7 @@ fs.readFile('./test_public/index.html', 'utf-8', (err, data) => {
         if (!linknum == 0){
             for(let i=0; linknum > i; i++){
                 var subdish = dom.window.document.querySelectorAll('link')[i].href;
-                if (maindish.startsWith('htt')){
+                if (subdish.startsWith('htt')){
                     var linkkakunou = url.parse(subdish).hostname;
                     kakunoukosub.push(linkkakunou)
                     console.log(chalk.green("CDN found: ") + chalk.white(subdish))

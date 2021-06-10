@@ -21,6 +21,7 @@
   "homepage": "https://github.com/K-Rintaro/CoveringCDN#readme",
   "dependencies": {
     "chalk": "^4.1.1",
+    "cheerio-httpcli": "^0.8.1",
     "jsdom": "^16.6.0",
     "ping": "^0.4.1"
   }
