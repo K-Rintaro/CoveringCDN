@@ -1,4 +1,6 @@
 # CDNCovering
+[![Build Status](https://travis-ci.com/K-Rintaro/CoveringCDN.svg?branch=main)](https://travis-ci.com/K-Rintaro/CoveringCDN)
+
 When CDN is down, CDNCovering can detect it, and run designated commands automatically.
 
 ## Install
