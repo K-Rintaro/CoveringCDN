@@ -17,6 +17,8 @@ CDNCovering has two modes: localfile (ex. ./public/index.html) and remotefile (e
 ```js
 CDNCovering.local(path, command)
 ```
+**Path means the path of the file that you want to check CDN status.**\
+**Command means the command that you want to run when CDN is down.**\
 Example:
 ```js
 CDNCovering.local('./public/index.html', 'heroku logs')
@@ -29,3 +31,8 @@ CDNCovering.remote(uri, command)
 Example:
 ```js
 CDNCovering.remote('https://www.rintaro.tech', 'heorku logs')
+```
+
+## LICENSE
+This software is released under the MIT license.
+
